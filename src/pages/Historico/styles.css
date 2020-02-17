@@ -1,0 +1,49 @@
+h3{
+  font-weight: bold;
+  transform: rotate(270deg);
+  margin: 0;
+  padding: 0;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.topo{
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  height: 200px;
+  width: 50px;
+}
+.visao{
+  height: 50px;
+  width: 420px;
+  background-color: #3E67D6;
+  border-radius: 0 0 0 20px;  
+  padding: 40px;
+}
+.titulovisao{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;  
+}
+.linha{
+  width: 550px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: #AAA solid 1px;
+  padding: 15px 0 15px 0;
+}
+.preco{
+  font-weight: bold; 
+  width: 150px; 
+}
+.descricao{
+  width: 330px; 
+}
+.data{
+  color: #AAA;
+}
