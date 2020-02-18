@@ -1,3 +1,14 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-size: 250%;
+}
+
+body, input[type="text"], button {
+  color: #333;
+  font-family: Poppins, Georgia;
+}
+/* everywhere else */
 * {
-  font-family: Poppins, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
