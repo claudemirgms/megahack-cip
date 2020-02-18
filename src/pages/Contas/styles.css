@@ -1,0 +1,27 @@
+.topocontas{
+  margin-bottom: 50px;
+}
+.fa-angle-left{
+  font-size: 50px;
+}
+.contasmes{
+  font-size: 40px;
+  font-weight: bold;
+}
+.disponivel{
+  width: 550px;
+}
+.selecionado{
+  margin-bottom: 100px;
+}
+.link{
+  padding: 10px;  
+  font-size: 44px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.tituloconta{
+  font-size: 15px;
+  color: #818181;
+}

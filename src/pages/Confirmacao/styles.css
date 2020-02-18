@@ -1,0 +1,28 @@
+.tudo{
+  width: 550px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.fa-grin-beam{
+  color: #00D0A8;
+}
+.processado{
+  color: #3E67D6;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.botaoconfirmar2{
+  background-color: #3E67D6;
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+  color: #FFF;
+  cursor: pointer;
+}

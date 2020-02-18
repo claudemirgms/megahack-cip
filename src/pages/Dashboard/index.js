@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './styles.css';
 
 export default function Dashboard(){  
@@ -30,7 +31,7 @@ export default function Dashboard(){
           </div>
         </div>
         <div class="contas">
-          Contas deste mês >
+        <Link class="linkcontas" to="/contas">Contas deste mês &#62;</Link>
         </div>
         <div class="boxcontas">
           <div class="box">
@@ -43,6 +44,7 @@ export default function Dashboard(){
               <span>R$ 32,99</span>
             </div>
           </div>
+          <Link class="link2" to="certificar">
           <div class="box">
             <div class="icone">
               <i class="fas fa-wifi fa-2x"></i>
@@ -53,6 +55,7 @@ export default function Dashboard(){
               <span>R$ 32,99</span>
             </div>
           </div>
+          </Link>
           <div class="box">
             <div class="icone">
               <i class="fas fa-dumbbell fa-2x"></i>
